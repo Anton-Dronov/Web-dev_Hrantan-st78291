@@ -1,0 +1,36 @@
+body{
+	background-image: url("kiev.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1{
+	text-align: center;
+	font-size: 2.5vw;
+	color: darkred;
+	text-shadow: 1px 1px black;
+}
+form{
+	margin-left: 10vw;
+	margin-top: 10vh;
+}
+input{
+	background-color: skyblue;
+	color: darkgreen;
+	width: 20vw;
+	height: 3vh;
+	font-size: 2.5vh;
+	border: 4px inset lightblue;
+	border-radius: 4px;
+}
+input::placeholder{
+	color: white;
+}
+label{
+	font-size: 2.5vh;
+}
+#subm{
+	height: 4vh;
+}
+button{
+	margin-left: 40vw;
+}
